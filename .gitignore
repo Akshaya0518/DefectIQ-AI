@@ -1,0 +1,23 @@
+
+.venv/
+__pycache__/
+*.pyc
+data/
+runs/
+training_results/
+.env
+.streamlit/secrets.toml
+.DS_Store
+
+# Keep the trained model, but ignore other model files
+models/*
+!models/best.pt
+
+inspections.db
+yolov8n.pt
+
+defect_dimensions_output.jpg
+detector_test_output.jpg
+detector_test_output_025.jpg
+patches_test_output.jpg
+pipeline_test_output.jpg
